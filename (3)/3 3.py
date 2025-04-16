@@ -17,15 +17,15 @@ class Calculation:
         if self.__calculationLine:
             self.__calculationLine = self.__calculationLine[:-1]
 
-# Пример использования:
+#пример использования
 calc = Calculation()
 calc.SetCalculationLine("123")
-print(calc.GetCalculationLine())  # Вывод: 123
+print(calc.GetCalculationLine())
 
 calc.SetLastSymbolCalculationLine("4")
-print(calc.GetCalculationLine())  # Вывод: 1234
+print(calc.GetCalculationLine())
 
-print(calc.GetLastSymbol())       # Вывод: 4
+print(calc.GetLastSymbol())
 
 calc.DeleteLastSymbol()
-print(calc.GetCalculationLine())  # Вывод: 123
+print(calc.GetCalculationLine())

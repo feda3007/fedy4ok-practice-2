@@ -8,6 +8,6 @@ class Worker:
     def get_salary(self):
         return self.rate * self.days
 
-
+#пример использования
 worker = Worker("Иван", "Иванов", 1000, 20)
 print(worker.get_salary())

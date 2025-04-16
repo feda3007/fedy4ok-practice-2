@@ -5,6 +5,9 @@ class Worker:
         self.__rate = rate
         self.__days = days
 
+    def get_salary(self):
+        return self.__rate * self.__days
+
     def get_name(self):
         return self.__name
 
@@ -17,10 +20,8 @@ class Worker:
     def get_days(self):
         return self.__days
 
-    def get_salary(self):
-        return self.__rate * self.__days
-
+#пример использования
 worker = Worker("Иван", "Иванов", 1000, 20)
-print(worker.get_salary())  # 20000
-print(worker.get_name())    # Иван
-print(worker.get_rate())    # 1000
+print(worker.get_salary())
+print(worker.get_name())
+print(worker.get_rate())
