@@ -1,6 +1,3 @@
-#НЕ РАБОТАЕТ#       #НЕ РАБОТАЕТ#       #НЕ РАБОТАЕТ#
-#НЕ РАБОТАЕТ#       #НЕ РАБОТАЕТ#       #НЕ РАБОТАЕТ#
-#НЕ РАБОТАЕТ#       #НЕ РАБОТАЕТ#       #НЕ РАБОТАЕТ#
 class Student:
     def __init__(self, surname, birthdate, group, grades):
         self.surname = surname
@@ -31,7 +28,7 @@ students = [
 ]
 
 # Изменение данных
-students[0].set_surname("Дудкин")
+students[0].set_surname("Дудкин")   # изменён Кудрявцев на Дудкин
 students[0].set_group("ГРУППА-643")
 
 # Поиск студента
