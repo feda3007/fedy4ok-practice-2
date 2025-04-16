@@ -13,7 +13,7 @@ class Counter:
         return self._value
 
 
-# Демонстрация
+#пример использования
 counter = Counter(5)
 counter.increment()
 print("Текущее значение:", counter.value)  # 6
