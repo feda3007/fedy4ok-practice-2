@@ -39,7 +39,7 @@ class BarDatabase:
 
         self.connection.commit()
 
-    #учет алкогольных напитков
+    #учёт алкогольных напитков
     def add_drink(self, name, alcohol_content, volume, price, quantity):
         self.cursor.execute('''
             INSERT INTO drinks (name, alcohol_content, volume, price, quantity)
@@ -59,7 +59,7 @@ class BarDatabase:
         ''', (quantity_change, drink_id))
         self.connection.commit()
 
-    # 1.2) Учет ингредиентов
+    #учёт ингредиентов
     def add_ingredient(self, name, quantity):
         self.cursor.execute('''
             INSERT INTO ingredients (name, quantity)
